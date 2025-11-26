@@ -1,0 +1,5 @@
+{
+  "name": "Wedding Seating Finder",
+  "description": "A mobile-first wedding seating chart application allowing guests to find their tables and view the venue layout.",
+  "requestFramePermissions": []
+}
