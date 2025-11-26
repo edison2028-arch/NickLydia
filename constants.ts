@@ -1,3 +1,4 @@
+
 // Data derived from the provided OCR content
 // This is the initial seed data. The app state will take over after load.
 
@@ -39,7 +40,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
   },
   {
     id: "3",
-    category: "女方親戚",
+    category: "女方家人",
     guests: [
       "張育綺(新娘妹妹)", "張惠卿(大姑姑)", "張惠娟(二姑姑)", "張惠珠(小姑姑)", 
       "張芮瑄(兒童椅)", "廖育霆", "廖恩頡", "張寶幸", "張錦隆"

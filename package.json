@@ -1,3 +1,4 @@
+
 {
   "name": "wedding-seating-chart",
   "private": true,
@@ -9,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
