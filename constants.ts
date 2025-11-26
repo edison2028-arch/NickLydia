@@ -1,5 +1,6 @@
 
-// Data derived from the provided OCR content
+
+// Data derived from the provided OCR content (11_30臭鼻臭ㄅㄨㄧˊ 結個婚要花多少 - 結婚桌位分配表 (1).pdf)
 // This is the initial seed data. The app state will take over after load.
 
 export interface RawTableData {
@@ -18,14 +19,14 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
       "盧媽-黃慈雪", "張媽-闕凰珠", "二姑姑-盧美菁", "大舅-闕銘煌", 
       "二姑丈-戴玉政", "舅公-吳明吉", "舅媽", "媒人-蘇美麗"
     ],
-    note: "新娘對蝦殼類過敏"
+    note: "新娘對蝦殼類過敏; 後加（小）需要加兒童椅"
   },
   {
     id: "1",
     category: "男方家人",
     guests: [
       "盧城絨四叔", "四叔(堂哥)", "四叔(堂哥)", "四叔(堂哥女友)", 
-      "盧清埤五叔", "劉美花五嬸", "五叔(堂姐)", "五叔(堂哥)", 
+      "盧清埤五叔", "劉美花五嬸", "五叔(堂姐)", "五叔 (堂哥)", 
       "盧清棟六叔"
     ]
   },
@@ -43,7 +44,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
     category: "女方家人",
     guests: [
       "張育綺(新娘妹妹)", "張惠卿(大姑姑)", "張惠娟(二姑姑)", "張惠珠(小姑姑)", 
-      "張芮瑄(兒童椅)", "廖育霆", "廖恩頡", "張寶幸", "張錦隆"
+      "張芮瑄(兒童椅)", "廖育霆", "廖恩頡", "張寶幸"
     ]
   },
   {
@@ -51,7 +52,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
     category: "男方朋友",
     guests: [
       "楊哲斌", "鄔丁財", "林恆生", "柯春平", "許建德", 
-      "張石成", "夏賢材", "王進富", "彭守強"
+      "張石成", "夏賢材", "王進富", "張錦隆", "彭守強"
     ]
   },
   {
@@ -158,9 +159,9 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
     category: "新郎朋友",
     guests: [
       "莊凱鈞", "凱鈞老婆", "潘瑋偟", "林育生", "育生老婆", 
-      "李侃奕", "黃郁琪", "林仁輝", "陳育菽", "徐品煒"
+      "李侃奕", "黃郁琪", "林仁輝", "陳育菽"
     ],
-    note: "兒童椅: 凱鈞女兒"
+    note: "兒童椅: 凱鈞女兒兩張"
   },
   {
     id: "21",
@@ -190,7 +191,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
     category: "新郎朋友",
     guests: [
       "莊小旻", "連千惠", "小旻兒子", "林雅士", "謝文君", 
-      "黃寶慧", "張瑞蘭", "朱哲丘", "廖文莉"
+      "黃寶慧", "張瑞蘭", "朱哲丘", "廖文莉", "徐品煒"
     ]
   },
   {
