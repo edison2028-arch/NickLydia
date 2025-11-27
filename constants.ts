@@ -72,7 +72,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
   },
   {
     id: "8",
-    category: "男方家人",
+    category: "男方朋友",
     guests: [
       "廖以崇", "廖以崇媽媽", "蕭耀宗", "宋惠馨","柯春平",
       "許建德", "張石成", "夏賢材", "王進富", "張錦隆"
