@@ -51,7 +51,7 @@ export const INITIAL_SEATING_DATA: RawTableData[] = [
     id: "5",
     category: "男方朋友",
     guests: [
-      "楊哲斌", "鄔丁財", "林恆生", "彭守強","周月會"
+      "楊哲斌", "鄔丁財", "林恆生", "彭守強","周月惠"
     ]
   },
   {
